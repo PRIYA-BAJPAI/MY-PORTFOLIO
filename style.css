@@ -1,0 +1,142 @@
+.container {
+    background-color: black;
+    min-height: 82vh;
+    /*  display: flex;
+    justify-content:right;
+    overflow: hidden;*/
+
+
+}
+
+.img img {
+    height: 30vh;
+    width: 30vh;
+    margin: 60px 20px 3px 0px;
+
+}
+
+.img img:hover {
+    transition: all 0.3s;
+    height: 32vh;
+    width: 40vh;
+
+}
+
+.img {
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.talk {
+    background-color: blanchedalmond;
+    color: black;
+    height: 25vh;
+    width: 30vh;
+    float: right;
+    margin: 3px 20px 3px 0px;
+
+}
+
+.talk textarea {
+    margin: 5px;
+    width: 28vh;
+    height: 20vh;
+}
+
+.intro {
+    height: 30vh;
+    width: 40vw;
+    background-color: rgb(223, 164, 75);
+    margin: 0px 50vh;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    /* justify-items: center;*/
+
+}
+
+.intro h1 {
+    font-family: cursive;
+    color: rgb(95, 73, 0);
+    margin: 2vh 10vh;
+    
+
+
+}
+
+.intro p {
+    margin: 0vh 8vh;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    margin: 0px 60vh;
+}
+
+.symbol img {
+    height: 10vh;
+    width: 10vh;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact img {
+    height: 5vh;
+    width: 5vh;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: auto;
+    width: 40vw;
+    margin: 5px 45vh;
+
+}
+
+.contact p {
+    margin: 10px;
+    width: 20vw;
+
+}
+
+.contact p:hover {
+    background-color: aquamarine;
+}
+
+/*.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+
+
+footer {
+    background-color: rgb(95, 69, 69);
+    height: 8vh;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
